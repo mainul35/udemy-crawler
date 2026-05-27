@@ -2,10 +2,6 @@
 
 A Python CLI that walks a Udemy quiz series via the REST API and emits a Word document — one question per page, with a consolidated answer key at the end. Built for owners of practice-test courses who want an offline, printable, searchable copy of the material they paid for.
 
-## Status
-
-Working end-to-end. Used in anger on a 5-quiz, 500-question practice-test course; produced two 125 KB `.docx` files with no manual intervention.
-
 ## How it works
 
 1. You hand the CLI a Udemy URL (course landing, curriculum item, or quiz page).
